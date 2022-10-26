@@ -1,4 +1,4 @@
-*::before, ::after {
+*::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,12 +17,16 @@ img {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    top: 0;
     height: 100px;
 }
 
 .kay {
     color: black;
     font-size: 30px;
+    font-family: 'Gruppo';
+    font-style: normal;
+    font-weight: 400;
     padding-left: 12rem;
 }
 
@@ -48,8 +52,17 @@ img {
     display: flex;
     padding-right: 12rem;
 }
+.sayhi:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
 
 .sayhi__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
     text-decoration: none;
 }
 .sayhi {
@@ -57,9 +70,17 @@ img {
     border: none;
     color: white;
     padding: .4rem 2rem;
+    font-family: 'Gruppo';
+    font-style: normal;
+    font-weight: 400;
     cursor: pointer;
     display: flex;
     align-items: center;
     border-radius: 5px;
     font-size: 24px;
+}
+
+.section1 {
+    background-color: #000000;
+    width: 100%;
 }
