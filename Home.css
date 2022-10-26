@@ -1,0 +1,65 @@
+*::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+.navbar {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+}
+
+.kay {
+    color: black;
+    font-size: 30px;
+    padding-left: 12rem;
+}
+
+/* link:active a {
+    color: black;
+    border-bottom: 1px solid black;
+} */
+
+.link {
+    padding: 4rem;
+    text-decoration: none;
+    color: gray;
+    font-size: 24px;
+}
+
+.wave__img {
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+
+.sayhi__btn {
+    display: flex;
+    padding-right: 12rem;
+}
+
+.sayhi__link {
+    text-decoration: none;
+}
+.sayhi {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: .4rem 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 24px;
+}
